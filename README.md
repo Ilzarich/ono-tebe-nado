@@ -1,1 +1,1 @@
-https://github.com/Ilzarich/ono-tebe-nado#:~:text=yandex%2Dpraktikum/ono%2Dtebe%2Dnado
+https://github.com/Ilzarich/ono-tebe-nado.git
