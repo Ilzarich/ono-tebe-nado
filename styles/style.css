@@ -28,6 +28,11 @@
     font-size: 18px;
     font-weight: 400;
     text-underline-offset: 4px;
+    border-bottom: 1px solid #000; 
+}
+
+.header__link_active {
+    border: none;
 }
 
 .header__links-list-item_no-bullit {
@@ -42,7 +47,9 @@
 }
 
 .header__address {
-    width: 240px;
+    max-width: 240px;
+    width: 100%;
+    font-style: normal;
 }
 
 .header__address-item {
@@ -51,7 +58,21 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    text-underline-offset: 3px;
+    border-bottom: 1px solid #000;
+}
+
+.header__address-tel {
+    max-width: 133px;
+    width: 100%;
+}
+
+.header__address-email {
+    max-width: 131px;
+    width: 100%;
+}
+
+.header__address-text {
+    border: none;
 }
 
 /* HEADER style end */
@@ -165,7 +186,7 @@
 
 .lots__card-list-item {
     max-width: 430px;   
-    max-height: 450px;
+    min-height: 450px;
 }
 
 .card-link {
@@ -183,6 +204,23 @@
 
 .card-padding {
     padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_gap_film {
+    gap: 201px;
+    
+}
+
+.card_gap_book {
+    gap: 31px;
+    
+}
+
+.card_gap_picture {
+    gap: 79px;
+    
 }
 
 .card__title {
@@ -203,37 +241,26 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    height: 450px;
-}
-
-.card_type_film p {
-    margin-top: 202px;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_type_book p {
-    margin-top: 30px;
-}
-
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
 }
 
-.card_type_picture p {
-    margin-top: 78px;
-}
-
 .lots__look-more-link {
+    max-width: 192px;
+    width: 100%;
     display: block;
-    margin-top: 56px;
+    margin-top: 30px;
     margin-left: 40px;
     color: #000;
     font-size: 20px;
     font-weight: 400;
-    text-underline-offset: 4px;
+    border-bottom: 1px solid #000;
 }
 
 /* LOST style end */
@@ -258,7 +285,8 @@
 }
 
 .about-text {
-    width: 885px;
+    max-width: 885px;
+    width: 100%;
     margin-top: 100px;
 }
 
@@ -294,6 +322,8 @@
 
 .footer-address {
     max-width: 240px;
+    width: 100%;
+    font-style: normal;
 }
 
 .footer__address-item {
@@ -302,7 +332,22 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
-    text-underline-offset: 3px;
+    border-bottom: 1px solid #000;
+}
+
+.footer__address-tel {
+    max-width: 133px;
+    width: 100%;
+}
+
+.footer__address-email {
+    max-width: 131px;
+    width: 100%;
+    
+}
+
+.footer__address-text {
+    border: none;
 }
 
 .footer__menu-list {
@@ -314,10 +359,11 @@
     color: #000;
     font-size: 18px;
     font-weight: 400;
+    border-bottom: 1px solid #000;
 }
 
 .footer__menu-link_active {
-    text-decoration: none;
+    border: none;
 }
 
 .footer__social-list {
